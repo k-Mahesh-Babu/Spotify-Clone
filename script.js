@@ -19,10 +19,10 @@ function secondsToMinutesSeconds(seconds) {
 async function getsongs(folder) {
     currfolder = folder;
     let songs = [
-        `https://mahesh3-2.github.io/Spotify-Clone/songs/${currfolder}/song1.mp3`,
-        `https://mahesh3-2.github.io/Spotify-Clone/songs/${currfolder}/song2.mp3`,
-        `https://mahesh3-2.github.io/Spotify-Clone/songs/${currfolder}/song3.mp3`,
-        `https://mahesh3-2.github.io/Spotify-Clone/songs/${currfolder}/song4.mp3`
+        `https://mah-esh32.github.io/Spotify-Clone/songs/${currfolder}/song1.mp3`,
+        `https://mah-esh32.github.io/Spotify-Clone/songs/${currfolder}/song2.mp3`,
+        `https://mah-esh32.github.io/Spotify-Clone/songs/${currfolder}/song3.mp3`,
+        `https://mah-esh32.github.io/Spotify-Clone/songs/${currfolder}/song4.mp3`
     ]; // Manually list songs here
 
     console.log("Songs found:", songs);
