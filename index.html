@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+<body>
+    <div class="nav">
+        <div class="logo"><img src="images/logo.svg" alt=""></div>
+        <div class="middlenav" style="display: flex;">
+            <div class="home"><img src="images/home.svg" alt=""></div>
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input class="curser search_bar" type="search" name="search" id="search"
+                    placeholder="What do you want to play?">
+            </div>
+        </div>
+        <div class="signin">
+            <div class="curser">Sign In</div>
+            <div class="curser">Login In</div>
+        </div>
+        <div class="bars"><img src="images/menu.svg" alt=""></div>
+    </div>
+    <div class="body">
+        <div class="left">
+            <div class="lefttop">
+                <div class="lefthome" style="display: flex;">
+                    <img src="images/home.svg" class="imgres" style="padding: 5px;" alt="">
+                    <div>Home</div>
+                </div>
+                <div class="leftsearch" style="display: flex;">
+                    <img src="images/search.svg" class="imgres" style="padding: 5px;" alt="">
+                    <div>Search</div>
+                </div>
+            </div>
+            <div class="leftbottom">
+                <div class="heading">
+                    <div class="headingtext" style="display: flex; align-items: center;"><img class="library curser"
+                            src="images/library.svg" alt="">
+                        <h3 class="curser">Your
+                            Library</h3>
+                    </div>
+                    <div><img class="imgres plus curser" src="images/plus.svg" alt=""></div>
+                </div>
+                <div class="runningsong" style="display: flex; align-items: center;">
+                    <img class="imgres" src="images/music.svg" style="padding-right: 10px;" alt="">
+                    <div class="details">
+                    </div>
+                    <div class="play">
+                        <img class="imgres curser playinsong" src="images/pause.svg" style="padding-right: 10px;"
+                            alt="">
+                    </div>
+
+                </div>
+                <div class="songslist">
+                    <ul class="list"></ul>
+                </div>
+                <div class="leftfooter">
+                    <div class="objects">
+                        <a href="">Legal</a>
+                        <a href="">Safety&Privacy Centre</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                    <div class="cookies curser">Cookies</div>
+                    <div class="lang curser" style="display: flex; align-items: center;">
+                        <img class="imgres" style=" padding: 0 5px;" src="images/world.svg" alt="">
+                        <div>English</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="popularalbums">
+                <div class="rightheading">
+                    <h2>Popular Albums</h2>
+                    <h2 class="curser songs">songs</h2>
+                </div>
+                <div class="albumsimg">
+                </div>
+            </div>
+            <div class="rightfooter">
+                <div class="rightfootericons">
+                    <h3 class="rfsn"></h3>
+                    <div style="display: flex;">
+
+                        <img class="imgres curser rfpri sideicon" style="height: 40px; width: 30px;"
+                            src="images/prev.svg" alt="">
+                        <div class="play"><img id="play" class="imgres curser " style="height: 40px; width: 30px;"
+                                src="images/pause.svg" alt=""></div>
+                        <img class="imgres curser rfni sideicon" style="height: 40px; width: 30px;" src="images/nxt.svg"
+                            alt="">
+                    </div>
+                    <div class="durran">
+                        <h3 class="rfd"></h3>
+                        <div class="volbtncls curser"><img class="imgres volbtn" src="images/lowvolume.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="dot"></div>
+                </div>
+                <div class="range">
+                    <input type="range" name="volume" id="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footertext">
+            <h3>Preview of Spotify</h3>
+            <div>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
+        </div>
+        <div class="footerbutton curser">Sign up free</div>
+    </footer>
+    <div class="container">
+        <div style="display: flex; gap: 15px; flex-direction: column;" class="signin">
+            <div class="curser">Sign In</div>
+            <div style="background-color: white; border-radius: 15px; padding: 5px;" class="curser">Login In</div>
+        </div>
+        <div class="containerobjects objects">
+            <a href="">Legal</a>
+            <a href="">Safety & Privacy Centre</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Cookies</a>
+            <a href="">About Ads</a>
+            <a href="">Accessibility</a>
+        </div>
+        <div class="box3">
+            <div class="cookies curser">Cookies</div>
+            <div class="lang curser" style="display: flex; align-items: center;">
+                <img class="imgres" style=" padding: 0 5px;" src="images/world.svg" alt="">
+                <div>English</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
