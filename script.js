@@ -61,10 +61,10 @@ async function playorpause(command) {
 }
 async function displayAlbums() {
     let albumData = [
-        { folder: "known", title: "Best Songs", description: "Popular hits", cover: "songs/known/cover.png" },
+        { folder: "another", title: "Best Songs", description: "Popular hits", cover: "songs/known/cover.png" },
         { folder: "ncs", title: "Non copy right", description: "NoCopyrightSounds", cover: "songs/ncs/cover.png" },
-        { folder: "new", title: "Copy right", description: "Fresh releases", cover: "songs/new/cover.png" },
-        { folder: "another", title: "Best Ones", description: "Fresh releases", cover: "songs/another/cover.png" }
+        { folder: "cs", title: "Copy right", description: "Fresh releases", cover: "songs/new/cover.png" },
+        { folder: "new", title: "Best Ones", description: "Fresh releases", cover: "songs/another/cover.png" }
     ]; // Define albums manually
 
     let albumimg = document.querySelector(".albumsimg");
